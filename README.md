@@ -43,4 +43,13 @@ para poder usar las ultimas caracteristicas de babel ya que babel traspila tambi
 ```bash
 "scripts":
     "build":"babel src --out-dir build"
+    
+    
+    "scripts": {
+  
+  "build": "babel src --out-dir build", //codigo de produccion
+  "dev": "nodemon src/index.js --exec babel-node",//codigo de desarrollo
+  "start": "node build/index.js"// ya es el codigo de produccion
+  
+  },
     ```
