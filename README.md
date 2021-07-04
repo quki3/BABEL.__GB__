@@ -23,3 +23,16 @@ para poder usar babel atravez de node
 ```bash
 para poder usar las ultimas caracteristicas de babel ya que babel traspila tambien codigo como jsx y posterires debemos instalar este comando
 ```
+# Para ejecutar la consola con babel
+```bash
+"scripts":
+  "start":"babel-node src/index.js"  //pero para que esto funcione debes poner un archivo .babelrc dentro de tu carpeta master
+```
+# .babelrc //este es un archivo necesario para usar babel-node
+```bash
+{
+ "preset": [
+        "@babel/preset-env"
+  ]
+}
+```
