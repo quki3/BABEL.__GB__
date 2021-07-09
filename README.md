@@ -4,24 +4,26 @@ Babel.js es un transcompilador que nos permite convertir nuestro código de Java
 
 #usage
 #Istalacion
-#@babel/core
-```bash
 Este es babel en si todas las tranformaciones tienen su origen con esta instalacion
-```
 
-#@babel/cli
 ```bash
+@babel/core
+```
 para poder usar babel desde consola es con esta instalacion
+
+
+```bash
+@babel/cli
 ```
 
-#@babel/node
-```bash
 para poder usar babel atravez de node
-```
-
-#@babel/preset-env
 ```bash
+@babel/node
+```
 para poder usar las ultimas caracteristicas de babel ya que babel traspila tambien codigo como jsx y posterires debemos instalar este comando
+
+```bash
+@babel/preset-env
 ```
 # Para ejecutar la consola con babel
 ```bash
