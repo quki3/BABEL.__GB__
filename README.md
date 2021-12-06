@@ -25,6 +25,14 @@ para poder usar las ultimas caracteristicas de babel ya que babel traspila tambi
 ```bash
 @babel/preset-env
 ```
+el loader que utilizara webpack para usar babel lo instalamos con
+```bash
+babel-loader
+```
+preset para react
+```bash
+@babel/preset-react 
+```
 # Para ejecutar la consola con babel
 ```bash
 "scripts":
